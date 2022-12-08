@@ -13,12 +13,16 @@ source :
     roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch 
     
     
- - world
+ - gazebo(world)
 ---
     export TURTLEBOT3_MODEL=burger (option : burger / waffle / waffle_pi)
     roslaunch turtlebot3_gazebo turtlebot3_world.launch (option1)
     roslaunch turtlebot3_gazebo turtlebot3_world.launch (option2)
     roslaunch turtlebot3_gazebo turtlebot3_house.launch (option3)
+    
+ - rviz
+---
+     roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
 
 ## 1. Obstacle Detection by lidar
 
