@@ -1,6 +1,12 @@
 # turtlebot_tutorial
 source : https://emanual.robotis.com/docs/en/platform/turtlebot3/basic_examples/#position-control
 
+## Turn On
+
+    export TURTLEBOT3_MODEL=burger
+    roslaunch turtlebot3_gazebo turtlebot3_world.launch
+    
+
 ## Obstacle Detection by lidar
 
     roslaunch turtlebot3_example turtlebot3_obstacle.launch
