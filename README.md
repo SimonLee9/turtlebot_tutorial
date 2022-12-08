@@ -6,13 +6,7 @@ source :
     https://www.youtube.com/watch?v=Xg1pKFQY5p4
 
 ## Turn On
-
- - keyboard
----
-    export TURTLEBOT3_MODEL=${TB3_MODEL} (option : burger / waffle / waffle_pi)
-    roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch 
-    
-    
+  
  - gazebo(world)
 ---
     export TURTLEBOT3_MODEL=burger (option : burger / waffle / waffle_pi)
@@ -23,7 +17,12 @@ source :
  - rviz
 ---
      roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
-
+     
+ - keyboard
+---
+    export TURTLEBOT3_MODEL=${TB3_MODEL} (option : burger / waffle / waffle_pi)
+    roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch 
+    
 ## 1. Obstacle Detection by lidar
 
     roslaunch turtlebot3_example turtlebot3_obstacle.launch
