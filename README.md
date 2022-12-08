@@ -5,8 +5,10 @@ source : https://emanual.robotis.com/docs/en/platform/turtlebot3/basic_examples/
 
  - keyboard
 ---
-    export TURTLEBOT3_MODEL=${TB3_MODEL}
-    roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+    export TURTLEBOT3_MODEL=${TB3_MODEL} (option : burger / waffle / waffle_pi)
+    roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch (option1)
+    roslaunch turtlebot3_gazebo turtlebot3_world.launch (option2)
+    roslaunch turtlebot3_gazebo turtlebot3_house.launch (option3)
     
  - world
 ---
