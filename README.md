@@ -7,7 +7,9 @@ source : https://emanual.robotis.com/docs/en/platform/turtlebot3/basic_examples/
 ---
     export TURTLEBOT3_MODEL=${TB3_MODEL}
     roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
-
+    
+ - world
+---
     export TURTLEBOT3_MODEL=burger
     roslaunch turtlebot3_gazebo turtlebot3_world.launch
     
