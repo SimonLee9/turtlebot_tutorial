@@ -16,7 +16,7 @@ source :
  - gazebo(world)
 ---
     export TURTLEBOT3_MODEL=burger (option : burger / waffle / waffle_pi)
-    roslaunch turtlebot3_gazebo turtlebot3_world.launch (option1)
+    roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch (option1)
     roslaunch turtlebot3_gazebo turtlebot3_world.launch (option2)
     roslaunch turtlebot3_gazebo turtlebot3_house.launch (option3)
     
